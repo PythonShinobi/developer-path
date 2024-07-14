@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import FrontendDeveloperPage from './frontend-developer/Frontend';
 import BackendDeveloperPage from './backend-developer/Backend';
 import APIDeveloperPage from './api-developer/Api';
+import DatabaseDeveloperPage from './database-developer/Database';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path='/frontend-developer' element={<FrontendDeveloperPage />}/>
         <Route path='/backend-developer' element={<BackendDeveloperPage />}/>
         <Route path='/api-developer' element={<APIDeveloperPage />}/>
+        <Route path='/database-developer' element={<DatabaseDeveloperPage />}/>
       </Routes>
     </BrowserRouter>
   );
