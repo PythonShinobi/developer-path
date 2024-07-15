@@ -8,6 +8,7 @@ import APIDeveloperPage from './api-developer/Api';
 import DatabaseDeveloperPage from './database-developer/Database';
 import DataScientistPage from './data-scientist/DataScientist';
 import FullstackDeveloperPage from './Fullstack-developer/Fullstack';
+import CloudArchitectPage from './cloud-architect/CloudArchitect';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/database-developer' element={<DatabaseDeveloperPage />}/>
         <Route path='/data-scientist' element={<DataScientistPage />}/>
         <Route path='/fullstack-developer' element={<FullstackDeveloperPage />}/>
+        <Route path='/cloud-architect' element={<CloudArchitectPage />}/>
       </Routes>
     </BrowserRouter>
   );
