@@ -12,6 +12,7 @@ import CloudArchitectPage from './cloud-architect/CloudArchitect';
 import BlockchainDeveloperPage from './blockchain-developer/Blockchain';
 import UXUIDesignerPage from './ux-ui-designer/UXUIDesignerPage';
 import CyberSecuritySpecialistPage from './cyber-security-specialist/CyberSecuritySpecialistPage';
+import MachineLearningPage from './machine-learning/MachineLearningPage';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/blockchain-developer' element={<BlockchainDeveloperPage />}/>        
         <Route path='/uxui-designer' element={<UXUIDesignerPage />}/>        
         <Route path='/cybersecurity' element={<CyberSecuritySpecialistPage />}/>        
+        <Route path='/machine-learning' element={<MachineLearningPage />}/>        
       </Routes>
     </BrowserRouter>
   );
