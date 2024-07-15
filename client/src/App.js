@@ -10,6 +10,7 @@ import DataScientistPage from './data-scientist/DataScientist';
 import FullstackDeveloperPage from './Fullstack-developer/Fullstack';
 import CloudArchitectPage from './cloud-architect/CloudArchitect';
 import BlockchainDeveloperPage from './blockchain-developer/Blockchain';
+import UXUIDesignerPage from './ux-ui-designer/UXUIDesignerPage';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
         <Route path='/data-scientist' element={<DataScientistPage />}/>
         <Route path='/fullstack-developer' element={<FullstackDeveloperPage />}/>
         <Route path='/cloud-architect' element={<CloudArchitectPage />}/>
-        <Route path='/blockchain-developer' element={<BlockchainDeveloperPage />}/>
+        <Route path='/blockchain-developer' element={<BlockchainDeveloperPage />}/>        
+        <Route path='/uxui-designer' element={<UXUIDesignerPage />}/>        
       </Routes>
     </BrowserRouter>
   );
