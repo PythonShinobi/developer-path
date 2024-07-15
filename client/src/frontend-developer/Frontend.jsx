@@ -190,13 +190,14 @@ const FrontendDeveloperPage = () => {
             <li><a href="http://udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" rel="noopener noreferrer">Udemy - The Complete Web Development Bootcamp</a> - Comprehensive course covering web development fundamentals.</li>
             <li><a href="https://www.udemy.com/course/100-days-of-code/" target="_blank" rel="noopener noreferrer">Udemy - 100 Days of Code: The Complete Python Pro Bootcamp</a> - Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!</li>
           </ul>
-          <Typography variant="body1" paragraph>
+          
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
             Recommended Books:
           </Typography>
           <ul>
-            <li>"Eloquent JavaScript" by Marijn Haverbeke - A great resource for mastering JavaScript concepts.</li>
-            <li>"React Design Patterns and Best Practices" by Michele Bertoli - Learn advanced React patterns and best practices.</li>
-            <li>"CSS Secrets: Better Solutions to Everyday Web Design Problems" by Lea Verou - Explore advanced CSS techniques and solutions.</li>
+            <li><strong>"Eloquent JavaScript" by Marijn Haverbeke</strong> - A great resource for mastering JavaScript concepts.</li>
+            <li><strong>"React Design Patterns and Best Practices" by Michele Bertoli</strong> - Learn advanced React patterns and best practices.</li>
+            <li><strong>"CSS Secrets: Better Solutions to Everyday Web Design Problems" by Lea Verou</strong> - Explore advanced CSS techniques and solutions.</li>
           </ul>
         </Box>
 

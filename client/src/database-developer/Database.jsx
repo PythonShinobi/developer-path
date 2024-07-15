@@ -152,6 +152,7 @@ const DatabaseDeveloperPage = () => {
           <ul>
             <li>Master SQL and database management fundamentals.</li>
             <li>Learn database design principles and normalization techniques.</li>
+            <li>Consider specializing in areas like data warehousing or database security.</li>
             <li>Gain hands-on experience with a variety of database systems (relational and NoSQL).</li>
             <li>Understand ETL processes and data integration techniques.</li>
             <li>Practice optimizing queries and database performance.</li>
@@ -194,6 +195,17 @@ const DatabaseDeveloperPage = () => {
             <li><a href="https://www.datacamp.com/courses/introduction-to-relational-databases-in-python" target="_blank" rel="noopener noreferrer">DataCamp - Introduction to Relational Databases in Python</a></li>                        
             <li><a href="https://www.udemy.com/course/sql-and-postgresql/" target="_blank" rel="noopener noreferrer">Udemy - SQL and PostgreSQL: The Complete Developer's Guide</a></li>
             <li><a href="https://www.udemy.com/course/mongodb-the-complete-developers-guide/" target="_blank" rel="noopener noreferrer">Udemy - MongoDB - The Complete Developer's Guide 2024</a></li>
+          </ul>
+
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Recommended Books:
+          </Typography>
+          <ul>
+            <li><strong>"SQL Performance Explained" by Markus Winand:</strong> A practical guide to SQL query optimization and performance tuning.</li>
+            <li><strong>"Database Design for Mere Mortals" by Michael J. Hernandez:</strong> A comprehensive guide to designing relational databases with clarity and accuracy.</li>
+            <li><strong>"Seven Databases in Seven Weeks" by Eric Redmond and Jim R. Wilson:</strong> Explore various database technologies and their use cases.</li>
+            <li><strong>"Learning SQL" by Alan Beaulieu:</strong> A hands-on guide to mastering SQL queries and database operations.</li>
+            <li><strong>"The Data Warehouse Toolkit" by Ralph Kimball and Margy Ross:</strong> Learn data warehousing design and implementation techniques.</li>
           </ul>
         </Box>
 

@@ -191,13 +191,14 @@ const BackendDeveloperPage = () => {
             <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" rel="noopener noreferrer">Udemy - The Complete 2024 Web Development Bootcamp</a> - Learn to build APIs using Node.js and Express.js.</li>
             <li><a href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/" target="_blank" rel="noopener noreferrer">Udemy - Node.js, Express, MongoDB & More: The Complete Bootcamp</a> - Dive into MongoDB and NoSQL database management.</li>
           </ul>
-          <Typography variant="body1" paragraph>
+          
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
             Recommended Books:
           </Typography>
           <ul>
-            <li>"Node.js Design Patterns" by Mario Casciaro - Explore advanced design patterns for Node.js applications.</li>
-            <li>"MongoDB: The Definitive Guide" by Kristina Chodorow - Comprehensive guide to MongoDB database management.</li>
-            <li>"Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin - Learn best practices for writing clean and maintainable code.</li>
+            <li><strong>"Node.js Design Patterns" by Mario Casciar</strong> - Explore advanced design patterns for Node.js applications.</li>
+            <li><strong>"MongoDB: The Definitive Guide" by Kristina Chodoro</strong> - Comprehensive guide to MongoDB database management.</li>
+            <li><strong>"Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Marti</strong> - Learn best practices for writing clean and maintainable code.</li>
           </ul>
         </Box>
 

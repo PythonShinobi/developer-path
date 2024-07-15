@@ -197,6 +197,17 @@ const APIDeveloperPage = () => {
             <li><a href="https://swagger.io/" target="_blank" rel="noopener noreferrer">Swagger Documentation</a></li>
             <li><a href="https://restfulapi.net/" target="_blank" rel="noopener noreferrer">RESTful API Design - Best Practices and Guidelines</a></li>
           </ul>
+
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Recommended Books:
+          </Typography>
+          <ul>
+            <li><strong>"RESTful API Design" by Matthias Biehl:</strong> A practical guide to designing RESTful APIs with best practices and case studies.</li>
+            <li><strong>"Designing Evolvable Web APIs with ASP.NET" by Glenn Block, et al.:</strong> Explore ASP.NET and RESTful API design patterns for building scalable APIs.</li>
+            <li><strong>"REST API Design Rulebook" by Mark Masse:</strong> Learn design principles and best practices for designing RESTful APIs.</li>
+            <li><strong>"GraphQL: The Definitive Guide" by Eve Porcello and Alex Banks:</strong> Comprehensive guide to GraphQL API development and implementation.</li>
+            <li><strong>"APIs: A Strategy Guide" by Daniel Jacobson, Greg Brail, and Dan Woods:</strong> Understand API strategy, design, and implementation for building successful APIs.</li>
+          </ul>
         </Box>
 
         {/* Back to Top Button */}

@@ -22,7 +22,7 @@ const Footer = () => {
         </Grid>
         <Box mt={4} textAlign="center">
           <Typography variant="body2" gutterBottom>
-            © {new Date().getFullYear()} Philip. All Rights Reserved.
+            © {new Date().getFullYear()} All Rights Reserved.
           </Typography>
         </Box>
       </Container>

@@ -187,13 +187,14 @@ const DataScientistPage = () => {
             <li><a href="https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/" target="_blank" rel="noopener noreferrer">Udemy - The Data Science Course: Complete Data Science Bootcamp 2024</a> - Complete Data Science Training: Math, Statistics, Python, Advanced Statistics in Python, Machine and Deep Learning.</li>
             <li><a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="noopener noreferrer">Coursera - Data Science Specialization by Johns Hopkins University</a> - Comprehensive course covering data science fundamentals and tools.</li>
           </ul>
-          <Typography variant="body1" paragraph>
+
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
             Recommended Books:
           </Typography>
           <ul>
-            <li>"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron - Practical guide to machine learning with Python.</li>
-            <li>"Data Science for Business" by Foster Provost and Tom Fawcett - Learn how to use data science for making strategic decisions in business.</li>
-            <li>"Python Data Science Handbook" by Jake VanderPlas - Comprehensive introduction to data science tools and techniques using Python.</li>
+            <li><strong>"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron</strong> - Practical guide to machine learning with Python.</li>
+            <li><strong>"Data Science for Business" by Foster Provost and Tom Fawcett</strong> - Learn how to use data science for making strategic decisions in business.</li>
+            <li><strong>"Python Data Science Handbook" by Jake VanderPlas</strong> - Comprehensive introduction to data science tools and techniques using Python.</li>
           </ul>
         </Box>
 
