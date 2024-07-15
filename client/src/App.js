@@ -7,6 +7,7 @@ import BackendDeveloperPage from './backend-developer/Backend';
 import APIDeveloperPage from './api-developer/Api';
 import DatabaseDeveloperPage from './database-developer/Database';
 import DataScientistPage from './data-scientist/DataScientist';
+import FullstackDeveloperPage from './Fullstack-developer/Fullstack';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/api-developer' element={<APIDeveloperPage />}/>
         <Route path='/database-developer' element={<DatabaseDeveloperPage />}/>
         <Route path='/data-scientist' element={<DataScientistPage />}/>
+        <Route path='/fullstack-developer' element={<FullstackDeveloperPage />}/>
       </Routes>
     </BrowserRouter>
   );
