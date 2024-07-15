@@ -1,0 +1,14 @@
+[
+  { "title": "Frontend Developer", "path": "/frontend-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721042990/frontend-card_xdgmtd.jpg" },
+  { "title": "Backend Developer", "path": "/backend-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721043340/backend-card_my4svl.jpg" },
+  { "title": "API Developer", "path": "/api-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721043586/api-card_k3kujt.jpg" },
+  { "title": "Database Developer", "path": "/database-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721043738/database-card_qgwd0a.jpg" },
+  { "title": "Data Scientist", "path": "/data-scientist", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721044027/data-scientist-card_eoyreh.jpg" },
+  { "title": "Fullstack Developer", "path": "/fullstack-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721044191/fullstack-card_aq8uyh.jpg" },
+  { "title": "Cloud Architect", "path": "/cloud-architect", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721044287/cloud-architect-card_wgqcp6.jpg" },
+  { "title": "Blockchain Developer", "path": "/blockchain-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721044383/blockchain-card_erj4cr.jpg" },
+  { "title": "UX/UI Designer", "path": "/uxui-designer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721044515/ux-ui-card_qiazis.jpg" },
+  { "title": "Cyber Security Specialist", "path": "/cybersecurity", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721045759/cybersecurity-card_vuz8eb.jpg" },
+  { "title": "Machine Learning Engineer", "path": "/machine-learning", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721045394/machine-learning-card_i7dwoz.jpg" }
+  
+]
