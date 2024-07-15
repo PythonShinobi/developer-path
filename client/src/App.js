@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import HomePage from './components/home/Home';
 import FrontendDeveloperPage from './frontend-developer/Frontend';
 import BackendDeveloperPage from './backend-developer/Backend';
 import APIDeveloperPage from './api-developer/Api';
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path='/' element={<HomePage />}/>
         <Route path='/frontend-developer' element={<FrontendDeveloperPage />}/>
         <Route path='/backend-developer' element={<BackendDeveloperPage />}/>
         <Route path='/api-developer' element={<APIDeveloperPage />}/>
