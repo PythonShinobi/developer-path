@@ -11,6 +11,7 @@ import FullstackDeveloperPage from './Fullstack-developer/Fullstack';
 import CloudArchitectPage from './cloud-architect/CloudArchitect';
 import BlockchainDeveloperPage from './blockchain-developer/Blockchain';
 import UXUIDesignerPage from './ux-ui-designer/UXUIDesignerPage';
+import CyberSecuritySpecialistPage from './cyber-security-specialist/CyberSecuritySpecialistPage';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/cloud-architect' element={<CloudArchitectPage />}/>
         <Route path='/blockchain-developer' element={<BlockchainDeveloperPage />}/>        
         <Route path='/uxui-designer' element={<UXUIDesignerPage />}/>        
+        <Route path='/cybersecurity' element={<CyberSecuritySpecialistPage />}/>        
       </Routes>
     </BrowserRouter>
   );
