@@ -141,11 +141,11 @@ const APIDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior API Developer:</strong> $55,000 - $75,000 annually</li>
-            <li><strong>Mid-Level API Developer:</strong> $75,000 - $95,000 annually</li>
-            <li><strong>Senior API Developer:</strong> $95,000 - $125,000 annually</li>
-            <li><strong>Technical Lead or API Architect:</strong> $125,000 - $155,000 annually</li>
-            <li><strong>API Manager or Director:</strong> $155,000+ annually</li>
+            <li><strong>Junior API Developer:</strong> $83K - $139K/yr</li>
+            <li><strong>Mid-Level API Developer:</strong> $92K - $153K/yr</li>
+            <li><strong>Senior API Developer:</strong> $102K - $167K/yr</li>
+            <li><strong>Technical Lead or API Architect:</strong> $109K - $177K/yr</li>
+            <li><strong>API Manager or Director:</strong> $177K+/yr</li>
           </ul>
         </Box>
 
