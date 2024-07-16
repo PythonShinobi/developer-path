@@ -5,17 +5,18 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './home/Home';
 import AboutPage from './about/About';
 import ContactPage from './contact/Contact';
-import FrontendDeveloperPage from './frontend-developer/Frontend';
-import BackendDeveloperPage from './backend-developer/Backend';
-import APIDeveloperPage from './api-developer/Api';
-import DatabaseDeveloperPage from './database-developer/Database';
-import DataScientistPage from './data-scientist/DataScientist';
-import FullstackDeveloperPage from './Fullstack-developer/Fullstack';
-import CloudArchitectPage from './cloud-architect/CloudArchitect';
-import BlockchainDeveloperPage from './blockchain-developer/Blockchain';
-import UXUIDesignerPage from './ux-ui-designer/UXUIDesignerPage';
-import CyberSecuritySpecialistPage from './cyber-security-specialist/CyberSecuritySpecialistPage';
-import MachineLearningPage from './machine-learning/MachineLearningPage';
+import FrontendDeveloperPage from './components/frontend-developer/Frontend';
+import BackendDeveloperPage from './components/backend-developer/Backend';
+import APIDeveloperPage from './components/api-developer/Api';
+import DatabaseDeveloperPage from './components/database-developer/Database';
+import DataScientistPage from './components/data-scientist/DataScientist';
+import FullstackDeveloperPage from './components/fullstack-developer/Fullstack';
+import CloudArchitectPage from './components/cloud-architect/CloudArchitect';
+import BlockchainDeveloperPage from './components/blockchain-developer/Blockchain';
+import UXUIDesignerPage from './components/ux-ui-designer/UXUIDesignerPage';
+import CyberSecuritySpecialistPage from './components/cyber-security-specialist/CyberSecuritySpecialistPage';
+import MachineLearningPage from './components/machine-learning/MachineLearningPage';
+import PythonDeveloperPage from './components/python-developer/PythonDeveloper';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Route path='/uxui-designer' element={<UXUIDesignerPage />}/>        
         <Route path='/cybersecurity' element={<CyberSecuritySpecialistPage />}/>        
         <Route path='/machine-learning' element={<MachineLearningPage />}/>        
+        <Route path='/python-developer' element={<PythonDeveloperPage />}/>        
       </Routes>
     </BrowserRouter>
   );
