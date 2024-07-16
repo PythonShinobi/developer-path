@@ -10,5 +10,6 @@
   { "title": "UX/UI Designer", "path": "/uxui-designer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721044515/ux-ui-card_qiazis.jpg" },
   { "title": "Cyber Security Specialist", "path": "/cybersecurity", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721045759/cybersecurity-card_vuz8eb.jpg" },
   { "title": "Machine Learning Engineer", "path": "/machine-learning", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721045394/machine-learning-card_i7dwoz.jpg" },
-  { "title": "Python Developer", "path": "/python-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721113401/python-developer-card_t2zjxp.jpg" }
+  { "title": "Python Developer", "path": "/python-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721113401/python-developer-card_t2zjxp.jpg" },
+  { "title": "Java Developer", "path": "/java-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721115582/How_To_Install_Java_on_Linux_xqig2m.jpg" }
 ]
