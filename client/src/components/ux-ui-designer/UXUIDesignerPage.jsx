@@ -140,11 +140,11 @@ const UXUIDesignerPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior UX/UI Designer:</strong> $50,000 - $70,000 annually</li>
-            <li><strong>Mid-Level UX/UI Designer:</strong> $70,000 - $90,000 annually</li>
-            <li><strong>Senior UX/UI Designer:</strong> $90,000 - $120,000 annually</li>
-            <li><strong>Lead UX/UI Designer or UX/UI Architect:</strong> $120,000 - $150,000 annually</li>
-            <li><strong>UX/UI Manager or Director:</strong> $150,000+ annually</li>
+            <li><strong>Junior UX/UI Designer:</strong> $70K - $128K/yr</li>
+            <li><strong>Mid-Level UX/UI Designer:</strong> $75K - $135K/yr</li>
+            <li><strong>Senior UX/UI Designer:</strong> $82K - $148K/yr</li>
+            <li><strong>Lead UX/UI Designer or UX/UI Architect:</strong> $91K - $166K/yr</li>
+            <li><strong>UX/UI Manager or Director:</strong> $166K+/yr</li>
           </ul>
         </Box>
 

@@ -142,11 +142,11 @@ const DatabaseDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Database Developer:</strong> $55,000 - $75,000 annually</li>
-            <li><strong>Mid-Level Database Developer:</strong> $75,000 - $95,000 annually</li>
-            <li><strong>Senior Database Developer:</strong> $95,000 - $125,000 annually</li>
-            <li><strong>Technical Lead or Database Architect:</strong> $125,000 - $155,000 annually</li>
-            <li><strong>Database Manager or Director:</strong> $155,000+ annually</li>
+            <li><strong>Junior Database Developer:</strong> $63K - $108K/yr</li>
+            <li><strong>Mid-Level Database Developer:</strong> $71K - $120K/yr</li>
+            <li><strong>Senior Database Developer:</strong> $78K - $132K/yr</li>
+            <li><strong>Technical Lead or Database Architect:</strong> $83K - $141K/yr</li>
+            <li><strong>Database Manager or Director:</strong> $141K+/yr</li>
           </ul>
         </Box>
 

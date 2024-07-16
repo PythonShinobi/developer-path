@@ -140,11 +140,11 @@ const BlockchainDeveloperPage = () => {
           Salaries
         </Typography>
         <ul>
-          <li><strong>Junior Blockchain Developer:</strong> $70,000 - $90,000 annually</li>
-          <li><strong>Mid-Level Blockchain Developer:</strong> $90,000 - $110,000 annually</li>
-          <li><strong>Senior Blockchain Developer:</strong> $110,000 - $140,000 annually</li>
-          <li><strong>Lead Blockchain Developer or Blockchain Architect:</strong> $140,000 - $170,000 annually</li>
-          <li><strong>Chief Blockchain Developer or Director of Blockchain Development:</strong> $170,000+ annually</li>
+          <li><strong>Junior Blockchain Developer:</strong> $77K - $141K/yr</li>
+          <li><strong>Mid-Level Blockchain Developer:</strong> $91K - $166K/yr</li>
+          <li><strong>Senior Blockchain Developer:</strong> $104K - $188K/yr</li>
+          <li><strong>Lead Blockchain Developer or Blockchain Architect:</strong> $116K - $208K/yr</li>
+          <li><strong>Chief Blockchain Developer or Director of Blockchain Development:</strong> $208K+/yr</li>
         </ul>
       </Box>
 

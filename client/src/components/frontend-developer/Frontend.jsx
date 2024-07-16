@@ -139,11 +139,11 @@ const FrontendDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Frontend Developer:</strong> $50,000 - $70,000 annually</li>
-            <li><strong>Mid-Level Frontend Developer:</strong> $70,000 - $90,000 annually</li>
-            <li><strong>Senior Frontend Developer:</strong> $90,000 - $120,000 annually</li>
-            <li><strong>Technical Lead or Frontend Architect:</strong> $120,000 - $150,000 annually</li>
-            <li><strong>Frontend Manager or Director:</strong> $150,000+ annually</li>
+            <li><strong>Junior Frontend Developer:</strong> $67K - $125K/yr</li>
+            <li><strong>Mid-Level Frontend Developer:</strong> $73K - $137K/yr</li>
+            <li><strong>Senior Frontend Developer:</strong> $77K - $145K/yr</li>
+            <li><strong>Technical Lead or Frontend Architect:</strong> $80K - $150K/yr</li>
+            <li><strong>Frontend Manager or Director:</strong> $150K+/yr</li>
           </ul>
         </Box>
 

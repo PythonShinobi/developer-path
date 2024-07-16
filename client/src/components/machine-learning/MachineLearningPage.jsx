@@ -139,11 +139,11 @@ const MachineLearningPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Machine Learning Specialist:</strong> $65,000 - $85,000 annually</li>
-            <li><strong>Mid-Level Machine Learning Specialist:</strong> $85,000 - $105,000 annually</li>
-            <li><strong>Senior Machine Learning Specialist:</strong> $105,000 - $135,000 annually</li>
-            <li><strong>Lead Machine Learning Specialist or Machine Learning Architect:</strong> $135,000 - $165,000 annually</li>
-            <li><strong>Chief Machine Learning Specialist or Director of Machine Learning:</strong> $165,000+ annually</li>
+            <li><strong>Junior Machine Learning Specialist:</strong> $103K - $187K/yr</li>
+            <li><strong>Mid-Level Machine Learning Specialist:</strong> $126K - $217K/yr</li>
+            <li><strong>Senior Machine Learning Specialist:</strong> $143K - $247K/yr</li>
+            <li><strong>Lead Machine Learning Specialist or Machine Learning Architect:</strong> $156K - $270K/yr</li>
+            <li><strong>Chief Machine Learning Specialist or Director of Machine Learning:</strong> $270K+/yr</li>
           </ul>
         </Box>
 

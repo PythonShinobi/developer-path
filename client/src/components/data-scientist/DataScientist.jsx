@@ -139,11 +139,11 @@ const DataScientistPage = () => {
           Salaries
         </Typography>
         <ul>
-          <li><strong>Junior Data Scientist:</strong> $60,000 - $80,000 annually</li>
-          <li><strong>Mid-Level Data Scientist:</strong> $80,000 - $100,000 annually</li>
-          <li><strong>Senior Data Scientist:</strong> $100,000 - $130,000 annually</li>
-          <li><strong>Lead Data Scientist or Data Science Manager:</strong> $130,000 - $160,000 annually</li>
-          <li><strong>Chief Data Scientist or Director of Data Science:</strong> $160,000+ annually</li>
+          <li><strong>Junior Data Scientist:</strong> $112K - $196K/yr</li>
+          <li><strong>Mid-Level Data Scientist:</strong> $133K - $224K/yr</li>
+          <li><strong>Senior Data Scientist:</strong> $146K - $247K/yr</li>
+          <li><strong>Lead Data Scientist or Data Science Manager:</strong> $158K - $268K/yr</li>
+          <li><strong>Chief Data Scientist or Director of Data Science:</strong> $268K+/yr</li>
         </ul>
       </Box>
 

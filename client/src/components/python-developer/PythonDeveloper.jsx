@@ -131,11 +131,11 @@ const PythonDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-              <li><strong>Junior Python Developer:</strong> $75,000 - $90,000 annually</li>
-              <li><strong>Mid-Level Python Developer:</strong> $90,000 - $110,000 annually</li>
-              <li><strong>Senior Python Developer:</strong> $110,000 - $140,000 annually</li>
-              <li><strong>Technical Lead or Python Architect:</strong> $130,000 - $160,000 annually</li>
-              <li><strong>Python Manager or Director:</strong> $160,000+ annually</li>
+            <li><strong>Junior Python Developer:</strong> $75K - $134K/yr</li>
+            <li><strong>Mid-Level Python Developer:</strong> $85K - $151K/yr</li>
+            <li><strong>Senior Python Developer:</strong> $97K - $169K/yr</li>
+            <li><strong>Technical Lead or Python Architect:</strong> $105K - $184K/yr</li>
+            <li><strong>Python Manager or Director:</strong> $184K+/yr</li>
           </ul>
         </Box>
 
@@ -194,27 +194,42 @@ const PythonDeveloperPage = () => {
             Here are some recommended study resources to help you become a Python developer:
           </Typography>
           <ul>
-            <li><a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank" rel="noopener noreferrer">Complete Python Bootcamp</a> (Udemy)</li>
-            <li><a href="https://www.codecademy.com/learn/learn-python-3" target="_blank" rel="noopener noreferrer">Learn Python 3</a> (Codecademy)</li>
+            <li><a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank" rel="noopener noreferrer">Udemy - Complete Python Bootcamp</a> The Complete Python Bootcamp From Zero to Hero in Python</li>
+            <li><a href="https://www.udemy.com/course/100-days-of-code/" target="_blank" rel="noopener noreferrer">Udemy - 100 Days of Code: The Complete Python Pro Bootcamp</a> - Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!</li>
             <li><a href="https://realpython.com/" target="_blank" rel="noopener noreferrer">Real Python</a> (Real Python)</li>
             <li><a href="https://docs.djangoproject.com/en/stable/" target="_blank" rel="noopener noreferrer">Django Documentation</a> (Django)</li>
             <li><a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank" rel="noopener noreferrer">Flask Documentation</a> (Flask)</li>
-            <li><a href="https://www.sqlalchemy.org/" target="_blank" rel="noopener noreferrer">SQLAlchemy Documentation</a> (SQLAlchemy)</li>
-            <li><a href="https://www.codecademy.com/learn/paths/data-science" target="_blank" rel="noopener noreferrer">Data Science Career Path</a> (Codecademy)</li>
+            <li><a href="https://www.sqlalchemy.org/" target="_blank" rel="noopener noreferrer">SQLAlchemy Documentation</a> (SQLAlchemy)</li>            
           </ul>
         </Box>
-      </Container>
-      <Footer />
-      {showBackToTop && (
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Recommended Books
+          </Typography>
+          <ul>
+            <li><strong>Automate the Boring Stuff with Python</strong> by Al Sweigart</li>
+            <li><strong>Invent Your Own Computer Games with Python</strong> by Al Sweigart</li>
+            <li><strong>Cracking Codes with Python</strong> by Al Sweigart</li>
+            <li><strong>Making Games with Python & Pygame</strong> by Al Sweigart</li>
+            <li><strong>Python for Data Analysis</strong> by Wes McKinney</li>
+            <li><strong>Fluent Python</strong> by Luciano Ramalho</li>
+            <li><strong>Effective Python: 59 Specific Ways to Write Better Python</strong> by Brett Slatkin</li>
+          </ul>
+        </Box>
+        
+        {showBackToTop && (
         <Fab
-          color="primary"
-          size="small"
-          onClick={handleScrollToTop}
-          style={{ position: 'fixed', bottom: '16px', right: '16px' }}
+        color="primary"
+        size="small"
+        onClick={handleScrollToTop}
+        style={{ position: 'fixed', bottom: '16px', right: '16px' }}
         >
           <KeyboardArrowUpIcon />
         </Fab>
-      )}
+        )}
+      </Container>      
+      <Footer />
     </div>
   );
 };

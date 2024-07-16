@@ -140,11 +140,11 @@ const CyberSecuritySpecialistPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Cybersecurity Specialist:</strong> $60,000 - $80,000 annually</li>
-            <li><strong>Mid-Level Cybersecurity Specialist:</strong> $80,000 - $100,000 annually</li>
-            <li><strong>Senior Cybersecurity Specialist:</strong> $100,000 - $130,000 annually</li>
-            <li><strong>Lead Cybersecurity Specialist or Cybersecurity Architect:</strong> $130,000 - $160,000 annually</li>
-            <li><strong>Cybersecurity Manager or Director:</strong> $160,000+ annually</li>
+            <li><strong>Junior Cybersecurity Specialist:</strong> $75K - $129K/yr</li>
+            <li><strong>Mid-Level Cybersecurity Specialist:</strong> $81K - $137K/yr</li>
+            <li><strong>Senior Cybersecurity Specialist:</strong> $94K - $158K/yr</li>
+            <li><strong>Lead Cybersecurity Specialist or Cybersecurity Architect:</strong> $106K - $180K/yr</li>
+            <li><strong>Cybersecurity Manager or Director:</strong> $180K+/yr</li>
           </ul>
         </Box>
 

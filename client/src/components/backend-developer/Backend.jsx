@@ -140,11 +140,11 @@ const BackendDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Backend Developer:</strong> $50,000 - $70,000 annually</li>
-            <li><strong>Mid-Level Backend Developer:</strong> $70,000 - $90,000 annually</li>
-            <li><strong>Senior Backend Developer:</strong> $90,000 - $120,000 annually</li>
-            <li><strong>Technical Lead or Backend Architect:</strong> $120,000 - $150,000 annually</li>
-            <li><strong>Backend Manager or Director:</strong> $150,000+ annually</li>
+            <li><strong>Junior Backend Developer:</strong> $66K - $124K/yr</li>
+            <li><strong>Mid-Level Backend Developer:</strong> $75K - $139K/yr</li>
+            <li><strong>Senior Backend Developer:</strong> $81K - $151K/yr</li>
+            <li><strong>Technical Lead or Backend Architect:</strong> $86K - $160K/yr</li>
+            <li><strong>Backend Manager or Director:</strong> $160K+/yr</li>
           </ul>
         </Box>
 

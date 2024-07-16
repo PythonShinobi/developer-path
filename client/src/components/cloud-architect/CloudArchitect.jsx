@@ -138,11 +138,11 @@ const CloudArchitectPage = () => {
           Salaries
         </Typography>
         <ul>
-          <li><strong>Junior Cloud Architect:</strong> $70,000 - $90,000 annually</li>
-          <li><strong>Mid-Level Cloud Architect:</strong> $90,000 - $110,000 annually</li>
-          <li><strong>Senior Cloud Architect:</strong> $110,000 - $140,000 annually</li>
-          <li><strong>Lead Cloud Architect or Cloud Solutions Architect:</strong> $140,000 - $170,000 annually</li>
-          <li><strong>Chief Cloud Architect or Director of Cloud Architecture:</strong> $170,000+ annually</li>
+          <li><strong>Junior Cloud Architect:</strong> $75K - $141K/yr</li>
+          <li><strong>Mid-Level Cloud Architect:</strong> $84K - $155K/yr</li>
+          <li><strong>Senior Cloud Architect:</strong> $99K - $180K/yr</li>
+          <li><strong>Lead Cloud Architect or Cloud Solutions Architect:</strong> $106K - $193K/yr</li>
+          <li><strong>Chief Cloud Architect or Director of Cloud Architecture:</strong> $193K+/yr</li>
         </ul>
       </Box>
 
