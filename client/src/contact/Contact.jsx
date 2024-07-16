@@ -1,55 +1,90 @@
 // client/src/components/contact/Contact.jsx
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { Container, Typography, Box, TextField, Button } from "@mui/material";
+
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
+import config from "../config.js"
 
 const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  
   useEffect(() => {window.scrollTo(0, 0)});
 
-  const handleSubmit = (event) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Handle form submission logic here (e.g., send data to backend, show success message)
-    alert("Form submitted!"); // Replace with actual form submission logic
+    try {
+      const response = await axios.post(`${config.serverEndpoint}/api/send-email`, formData);
+      alert(response.data);      
+      setFormData({       // Clear the form fields
+        name: "",
+        email: "",
+        message: ""
+      });
+    } catch (error) {
+      alert('Failed to send email');
+    }
   };
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Navbar />
-      <Container style={{ flexGrow: 1, paddingBottom: "2rem" }}>
-        <Box mt={4} textAlign="center">
-          <Typography variant="h3" gutterBottom>
+      <Container style={{ flexGrow: 1, paddingBottom: '2rem' }}>
+        <Box mt={4} textAlign='center'>
+          <Typography variant='h3' gutterBottom>
             Contact Me
           </Typography>
-          <Typography variant="body1" paragraph>
+          <Typography variant='body1' paragraph>
             Have a question or feedback? Reach out to me using the form below:
           </Typography>
-          <form onSubmit={handleSubmit} style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <form onSubmit={handleSubmit} style={{ maxWidth: '600px', margin: '0 auto' }}>
             <TextField
-              label="Your Name"
-              variant="outlined"
+              label='Your Name'
+              name='name'
+              variant='outlined'
               fullWidth
-              margin="normal"
+              margin='normal'
               required
+              value={formData.name}
+              onChange={handleChange}
             />
             <TextField
-              label="Email Address"
-              variant="outlined"
+              label='Email Address'
+              name='email'
+              variant='outlined'
               fullWidth
-              margin="normal"
-              type="email"
+              margin='normal'
+              type='email'
               required
+              value={formData.email}
+              onChange={handleChange}
             />
             <TextField
-              label="Message"
-              variant="outlined"
+              label='Message'
+              name='message'
+              variant='outlined'
               fullWidth
               multiline
               rows={4}
-              margin="normal"
+              margin='normal'
               required
+              value={formData.message}
+              onChange={handleChange}
             />
-            <Button type="submit" variant="contained" color="primary">
+            <Button type='submit' variant='contained' color='primary'>
               Submit
             </Button>
           </form>
