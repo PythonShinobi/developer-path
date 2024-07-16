@@ -17,6 +17,7 @@ import UXUIDesignerPage from './components/ux-ui-designer/UXUIDesignerPage';
 import CyberSecuritySpecialistPage from './components/cyber-security-specialist/CyberSecuritySpecialistPage';
 import MachineLearningPage from './components/machine-learning/MachineLearningPage';
 import PythonDeveloperPage from './components/python-developer/PythonDeveloper';
+import JavaDeveloperPage from './components/java-developer/JavaDeveloper';
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
         <Route path='/cybersecurity' element={<CyberSecuritySpecialistPage />}/>        
         <Route path='/machine-learning' element={<MachineLearningPage />}/>        
         <Route path='/python-developer' element={<PythonDeveloperPage />}/>        
+        <Route path='/java-developer' element={<JavaDeveloperPage />}/>        
       </Routes>
     </BrowserRouter>
   );
