@@ -1,10 +1,12 @@
 // client/src/components/contact/Contact.jsx
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Typography, Box, TextField, Button } from "@mui/material";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 
 const ContactPage = () => {
+  useEffect(() => {window.scrollTo(0, 0)});
+
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic here (e.g., send data to backend, show success message)
