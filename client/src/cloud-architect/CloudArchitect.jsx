@@ -4,8 +4,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * CloudArchitectPage Component
@@ -132,6 +132,19 @@ const CloudArchitectPage = () => {
             <li><strong>Enterprise Cloud Architect:</strong> Architectures cloud solutions for large enterprises, focusing on scalability and security.</li>
           </ul>
         </Box>
+
+        <Box mt={4}>
+        <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+          Salaries
+        </Typography>
+        <ul>
+          <li><strong>Junior Cloud Architect:</strong> $70,000 - $90,000 annually</li>
+          <li><strong>Mid-Level Cloud Architect:</strong> $90,000 - $110,000 annually</li>
+          <li><strong>Senior Cloud Architect:</strong> $110,000 - $140,000 annually</li>
+          <li><strong>Lead Cloud Architect or Cloud Solutions Architect:</strong> $140,000 - $170,000 annually</li>
+          <li><strong>Chief Cloud Architect or Director of Cloud Architecture:</strong> $170,000+ annually</li>
+        </ul>
+      </Box>
 
         <Box mt={4}>
           <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>

@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * CyberSecuritySpecialistPage Component
@@ -132,6 +132,19 @@ const CyberSecuritySpecialistPage = () => {
             <li><strong>Senior Cyber Security Consultant:</strong> Provides strategic guidance, manages security projects, and leads teams.</li>
             <li><strong>Chief Information Security Officer (CISO):</strong> Oversees organization-wide security strategies, policies, and compliance.</li>
             <li><strong>Security Architect:</strong> Designs and builds secure IT systems and networks.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior Cybersecurity Specialist:</strong> $60,000 - $80,000 annually</li>
+            <li><strong>Mid-Level Cybersecurity Specialist:</strong> $80,000 - $100,000 annually</li>
+            <li><strong>Senior Cybersecurity Specialist:</strong> $100,000 - $130,000 annually</li>
+            <li><strong>Lead Cybersecurity Specialist or Cybersecurity Architect:</strong> $130,000 - $160,000 annually</li>
+            <li><strong>Cybersecurity Manager or Director:</strong> $160,000+ annually</li>
           </ul>
         </Box>
 

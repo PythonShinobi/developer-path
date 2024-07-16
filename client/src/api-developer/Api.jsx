@@ -4,8 +4,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * APIDeveloperPage Component
@@ -133,6 +133,19 @@ const APIDeveloperPage = () => {
             <li><strong>Senior API Developer:</strong> Leads API architecture decisions, sets API standards, and optimizes API performance.</li>
             <li><strong>API Architect or Specialist:</strong> Designs scalable API ecosystems, oversees API strategy, and integrates new technologies.</li>
             <li><strong>API Manager or Director:</strong> Manages API development teams, aligns API strategy with business goals, and drives API innovation.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior API Developer:</strong> $55,000 - $75,000 annually</li>
+            <li><strong>Mid-Level API Developer:</strong> $75,000 - $95,000 annually</li>
+            <li><strong>Senior API Developer:</strong> $95,000 - $125,000 annually</li>
+            <li><strong>Technical Lead or API Architect:</strong> $125,000 - $155,000 annually</li>
+            <li><strong>API Manager or Director:</strong> $155,000+ annually</li>
           </ul>
         </Box>
 

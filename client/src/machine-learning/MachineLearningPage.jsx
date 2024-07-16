@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * MachineLearningPage Component
@@ -131,6 +131,19 @@ const MachineLearningPage = () => {
             <li><strong>Senior Machine Learning Engineer:</strong> Leads machine learning projects, designs complex systems, and mentors junior team members.</li>
             <li><strong>AI Architect:</strong> Designs AI solutions and oversees their implementation across projects.</li>
             <li><strong>Chief Data Scientist:</strong> Leads data science teams, defines strategies, and drives innovation in data-driven decision making.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior Machine Learning Specialist:</strong> $65,000 - $85,000 annually</li>
+            <li><strong>Mid-Level Machine Learning Specialist:</strong> $85,000 - $105,000 annually</li>
+            <li><strong>Senior Machine Learning Specialist:</strong> $105,000 - $135,000 annually</li>
+            <li><strong>Lead Machine Learning Specialist or Machine Learning Architect:</strong> $135,000 - $165,000 annually</li>
+            <li><strong>Chief Machine Learning Specialist or Director of Machine Learning:</strong> $165,000+ annually</li>
           </ul>
         </Box>
 

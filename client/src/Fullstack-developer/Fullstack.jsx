@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * FullstackDeveloperPage Component
@@ -132,6 +132,19 @@ const FullstackDeveloperPage = () => {
             <li><strong>Senior Fullstack Developer:</strong> Leads fullstack projects, makes architectural decisions, and ensures high-quality code standards.</li>
             <li><strong>Technical Lead or Fullstack Architect:</strong> Responsible for technical strategy, guiding teams, and implementing best practices across projects.</li>
             <li><strong>Development Manager or Director:</strong> Manages development teams, oversees multiple projects, and contributes to organizational strategy.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior Fullstack Developer:</strong> $60,000 - $80,000 annually</li>
+            <li><strong>Mid-Level Fullstack Developer:</strong> $80,000 - $100,000 annually</li>
+            <li><strong>Senior Fullstack Developer:</strong> $100,000 - $130,000 annually</li>
+            <li><strong>Technical Lead or Fullstack Architect:</strong> $130,000 - $160,000 annually</li>
+            <li><strong>Fullstack Manager or Director:</strong> $160,000+ annually</li>
           </ul>
         </Box>
 

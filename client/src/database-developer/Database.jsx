@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * DatabaseDeveloperPage Component
@@ -134,6 +134,19 @@ const DatabaseDeveloperPage = () => {
             <li><strong>Senior Database Developer:</strong> Leads database design projects, optimizes database performance, and mentors junior developers.</li>
             <li><strong>Database Architect:</strong> Designs database systems, defines standards, and oversees database strategy and implementation.</li>
             <li><strong>Chief Data Officer (CDO):</strong> Provides strategic direction for data management and oversees enterprise-wide data governance.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior Database Developer:</strong> $55,000 - $75,000 annually</li>
+            <li><strong>Mid-Level Database Developer:</strong> $75,000 - $95,000 annually</li>
+            <li><strong>Senior Database Developer:</strong> $95,000 - $125,000 annually</li>
+            <li><strong>Technical Lead or Database Architect:</strong> $125,000 - $155,000 annually</li>
+            <li><strong>Database Manager or Director:</strong> $155,000+ annually</li>
           </ul>
         </Box>
 

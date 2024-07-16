@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  This component represents the page dedicated to Backend Developers. It provides information
@@ -132,6 +132,19 @@ const BackendDeveloperPage = () => {
             <li><strong>Senior Backend Developer:</strong> Leads backend architecture, makes technical decisions, and mentors junior developers.</li>
             <li><strong>Technical Lead or Backend Architect:</strong> Designs scalable backend systems, oversees technical strategy, and ensures best practices.</li>
             <li><strong>Backend Manager or Director:</strong> Manages backend development teams, oversees project delivery, and contributes to organizational strategy.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior Backend Developer:</strong> $50,000 - $70,000 annually</li>
+            <li><strong>Mid-Level Backend Developer:</strong> $70,000 - $90,000 annually</li>
+            <li><strong>Senior Backend Developer:</strong> $90,000 - $120,000 annually</li>
+            <li><strong>Technical Lead or Backend Architect:</strong> $120,000 - $150,000 annually</li>
+            <li><strong>Backend Manager or Director:</strong> $150,000+ annually</li>
           </ul>
         </Box>
 

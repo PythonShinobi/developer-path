@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * UXUIDesignerPage Component
@@ -132,6 +132,19 @@ const UXUIDesignerPage = () => {
             <li><strong>Senior UX/UI Designer:</strong> Leads major design projects, makes critical design decisions, and ensures high-quality design standards.</li>
             <li><strong>Lead UX/UI Designer:</strong> Guides the overall design strategy and vision, and manages design teams.</li>
             <li><strong>Design Manager or Director:</strong> Oversees multiple design projects, manages design teams, and contributes to organizational strategy.</li>
+          </ul>
+        </Box>
+
+        <Box mt={4}>
+          <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+            Salaries
+          </Typography>
+          <ul>
+            <li><strong>Junior UX/UI Designer:</strong> $50,000 - $70,000 annually</li>
+            <li><strong>Mid-Level UX/UI Designer:</strong> $70,000 - $90,000 annually</li>
+            <li><strong>Senior UX/UI Designer:</strong> $90,000 - $120,000 annually</li>
+            <li><strong>Lead UX/UI Designer or UX/UI Architect:</strong> $120,000 - $150,000 annually</li>
+            <li><strong>UX/UI Manager or Director:</strong> $150,000+ annually</li>
           </ul>
         </Box>
 

@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * Data Scientist Page Component
@@ -133,6 +133,19 @@ const DataScientistPage = () => {
             <li><strong>Chief Data Scientist or Head of Data Science:</strong> Defines the data strategy, leads innovation, and drives data-driven decision-making at an organizational level.</li>
           </ul>
         </Box>
+        
+        <Box mt={4}>
+        <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+          Salaries
+        </Typography>
+        <ul>
+          <li><strong>Junior Data Scientist:</strong> $60,000 - $80,000 annually</li>
+          <li><strong>Mid-Level Data Scientist:</strong> $80,000 - $100,000 annually</li>
+          <li><strong>Senior Data Scientist:</strong> $100,000 - $130,000 annually</li>
+          <li><strong>Lead Data Scientist or Data Science Manager:</strong> $130,000 - $160,000 annually</li>
+          <li><strong>Chief Data Scientist or Director of Data Science:</strong> $160,000+ annually</li>
+        </ul>
+      </Box>
 
         <Box mt={4}>
           <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>

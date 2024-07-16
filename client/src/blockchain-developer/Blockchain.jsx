@@ -5,8 +5,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-import Navbar from '../components/navbar/Navbar';
-import Footer from '../components/footer/Footer';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 /**
  * BlockchainDeveloperPage Component
@@ -134,6 +134,19 @@ const BlockchainDeveloperPage = () => {
             <li><strong>Development Manager or Director:</strong> Manages development teams, oversees multiple projects, and contributes to organizational strategy.</li>
           </ul>
         </Box>
+
+        <Box mt={4}>
+        <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
+          Salaries
+        </Typography>
+        <ul>
+          <li><strong>Junior Blockchain Developer:</strong> $70,000 - $90,000 annually</li>
+          <li><strong>Mid-Level Blockchain Developer:</strong> $90,000 - $110,000 annually</li>
+          <li><strong>Senior Blockchain Developer:</strong> $110,000 - $140,000 annually</li>
+          <li><strong>Lead Blockchain Developer or Blockchain Architect:</strong> $140,000 - $170,000 annually</li>
+          <li><strong>Chief Blockchain Developer or Director of Blockchain Development:</strong> $170,000+ annually</li>
+        </ul>
+      </Box>
 
         <Box mt={4}>
           <Typography variant="h5" gutterBottom style={{ fontWeight: 530 }}>
