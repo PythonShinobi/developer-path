@@ -131,11 +131,11 @@ const PythonDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Python Developer:</strong> $60,000 - $80,000 annually</li>
-            <li><strong>Mid-Level Python Developer:</strong> $80,000 - $100,000 annually</li>
-            <li><strong>Senior Python Developer:</strong> $100,000 - $130,000 annually</li>
-            <li><strong>Technical Lead or Python Architect:</strong> $130,000 - $160,000 annually</li>
-            <li><strong>Python Manager or Director:</strong> $160,000+ annually</li>
+              <li><strong>Junior Python Developer:</strong> $75,000 - $90,000 annually</li>
+              <li><strong>Mid-Level Python Developer:</strong> $90,000 - $110,000 annually</li>
+              <li><strong>Senior Python Developer:</strong> $110,000 - $140,000 annually</li>
+              <li><strong>Technical Lead or Python Architect:</strong> $130,000 - $160,000 annually</li>
+              <li><strong>Python Manager or Director:</strong> $160,000+ annually</li>
           </ul>
         </Box>
 
