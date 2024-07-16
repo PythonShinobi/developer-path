@@ -18,6 +18,7 @@ import CyberSecuritySpecialistPage from './components/cyber-security-specialist/
 import MachineLearningPage from './components/machine-learning/MachineLearningPage';
 import PythonDeveloperPage from './components/python-developer/PythonDeveloper';
 import JavaDeveloperPage from './components/java-developer/JavaDeveloper';
+import CppDeveloperPage from './components/cpp-developer/Cpp-Developer';
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
         <Route path='/machine-learning' element={<MachineLearningPage />}/>        
         <Route path='/python-developer' element={<PythonDeveloperPage />}/>        
         <Route path='/java-developer' element={<JavaDeveloperPage />}/>        
+        <Route path='/cpp-developer' element={<CppDeveloperPage />}/>        
       </Routes>
     </BrowserRouter>
   );
