@@ -2,9 +2,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import HomePage from './components/home/Home';
-import AboutPage from './components/about/About';
-import ContactPage from './components/contact/Contact';
+import HomePage from './home/Home';
+import AboutPage from './about/About';
+import ContactPage from './contact/Contact';
 import FrontendDeveloperPage from './frontend-developer/Frontend';
 import BackendDeveloperPage from './backend-developer/Backend';
 import APIDeveloperPage from './api-developer/Api';
