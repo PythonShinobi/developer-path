@@ -140,11 +140,11 @@ const FullstackDeveloperPage = () => {
             Salaries
           </Typography>
           <ul>
-            <li><strong>Junior Fullstack Developer:</strong> $60,000 - $80,000 annually</li>
-            <li><strong>Mid-Level Fullstack Developer:</strong> $80,000 - $100,000 annually</li>
-            <li><strong>Senior Fullstack Developer:</strong> $100,000 - $130,000 annually</li>
-            <li><strong>Technical Lead or Fullstack Architect:</strong> $130,000 - $160,000 annually</li>
-            <li><strong>Fullstack Manager or Director:</strong> $160,000+ annually</li>
+              <li><strong>Junior Fullstack Developer:</strong> $69K - $129K/yr</li>
+              <li><strong>Mid-Level Fullstack Developer:</strong> $78K - $146K/yr</li>
+              <li><strong>Senior Fullstack Developer:</strong> $88K - $165K/yr</li>
+              <li><strong>Technical Lead or Fullstack Architect:</strong> $97K - $181K/yr</li>
+              <li><strong>Fullstack Manager or Director:</strong> $181K+/yr</li>
           </ul>
         </Box>
 
