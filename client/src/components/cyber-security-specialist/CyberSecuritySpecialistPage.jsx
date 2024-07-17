@@ -4,6 +4,7 @@ import { Container, Typography, Box, Button, Menu, MenuItem, Fab } from '@mui/ma
 import ShareIcon from '@mui/icons-material/Share';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { Reddit, X, Facebook, Pinterest, LinkedIn } from '@mui/icons-material';
 
 import Navbar from '../../navbar/Navbar';
 import Footer from '../../footer/Footer';
@@ -126,11 +127,11 @@ const CyberSecuritySpecialistPage = () => {
               open={Boolean(anchorEl)}
               onClose={handleMenuClose}
             >
-              <MenuItem onClick={() => shareContent('twitter')}>Twitter</MenuItem>
-              <MenuItem onClick={() => shareContent('facebook')}>Facebook</MenuItem>
-              <MenuItem onClick={() => shareContent('reddit')}>Reddit</MenuItem>
-              <MenuItem onClick={() => shareContent('pinterest')}>Pinterest</MenuItem>
-              <MenuItem onClick={() => shareContent('linkedin')}>LinkedIn</MenuItem>                        
+              <MenuItem onClick={() => shareContent('twitter')}><X /></MenuItem>
+              <MenuItem onClick={() => shareContent('facebook')}><Facebook/></MenuItem>
+              <MenuItem onClick={() => shareContent('reddit')}><Reddit/></MenuItem>
+              <MenuItem onClick={() => shareContent('pinterest')}><Pinterest/></MenuItem>
+              <MenuItem onClick={() => shareContent('linkedin')}><LinkedIn/></MenuItem>                        
             </Menu>  
           </Box>
           <Typography variant="body1" paragraph>
@@ -207,6 +208,10 @@ const CyberSecuritySpecialistPage = () => {
             <li><strong>Lead Cybersecurity Specialist or Cybersecurity Architect:</strong> $106K - $180K/yr</li>
             <li><strong>Cybersecurity Manager or Director:</strong> $180K+/yr</li>
           </ul>
+
+          <Typography variant="body2" color="textSecondary">
+            Salary ranges sourced from Glassdoor.
+          </Typography>
         </Box>
 
         <Box mt={4}>
