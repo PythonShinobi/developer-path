@@ -1,8 +1,7 @@
 // client/src/data-scientist/DataScientist.jsx
 import React, { useState, useEffect } from 'react';
-import { Container, Typography, Box, Button, Fab } from '@mui/material';
+import { Container, Typography, Box, Button, Menu, MenuItem, Fab } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
-import GetAppIcon from '@mui/icons-material/GetApp';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 import Navbar from '../../navbar/Navbar';
@@ -19,6 +18,7 @@ import Footer from '../../footer/Footer';
  */
 const DataScientistPage = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null); // State for anchor element of menu
 
   // Function to handle scrolling to the top of the page
   const handleScrollToTop = () => {
@@ -35,6 +35,45 @@ const DataScientistPage = () => {
     } else {
       setShowBackToTop(false);
     };
+  };
+
+  const handleMenuOpen = (event) => {
+    setAnchorEl(event.currentTarget); // Open menu
+  };
+
+  const handleMenuClose = () => {
+    setAnchorEl(null); // Close menu
+  };
+
+  const shareContent = (platform) => {
+    let shareUrl = '';
+    switch (platform) {
+      case 'twitter':
+        shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}`;
+        break;
+      case 'facebook':
+        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`;
+        break;
+      case 'reddit':
+        shareUrl = `https://www.reddit.com/submit?url=${encodeURIComponent(window.location.href)}&title=Check%20out%20this%20Fullstack%20Developer%20page!`;
+        break;
+      case 'pinterest':
+        shareUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(window.location.href)}&description=Check%20out%20this%20Fullstack%20Developer%20page!`;
+        break;
+      case 'linkedin':
+        shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`;
+        break;
+      // Add more cases for other platforms as needed
+      default:
+        alert(`Share on ${platform} functionality to be implemented`);
+        break;
+    }
+
+    if (shareUrl) {
+      window.open(shareUrl, '_blank'); // Open new tab with the share URL
+    }
+
+    handleMenuClose(); // Close the menu after sharing
   };
 
   useEffect(() => {
@@ -57,21 +96,23 @@ const DataScientistPage = () => {
             <Button
               variant="contained"
               startIcon={<ShareIcon />}
-              style={{ backgroundColor: '#007BFF', color: '#FFF', marginRight: '8px' }}
-              size="small"
-              onClick={() => alert('Share functionality to be implemented')}
+              style={{ backgroundColor: '#007BFF', color: '#FFF', marginRight: '2px' }}
+              size="medium"
+              onClick={handleMenuOpen} // Open the sharing menu
             >
               Share
             </Button>
-            <Button
-              variant="contained"
-              startIcon={<GetAppIcon />}
-              style={{ backgroundColor: '#007BFF', color: '#FFF' }}
-              size="small"
-              onClick={() => alert('Download functionality to be implemented')}
+            <Menu
+              anchorEl={anchorEl}
+              open={Boolean(anchorEl)}
+              onClose={handleMenuClose}
             >
-              Download
-            </Button>
+              <MenuItem onClick={() => shareContent('twitter')}>Twitter</MenuItem>
+              <MenuItem onClick={() => shareContent('facebook')}>Facebook</MenuItem>
+              <MenuItem onClick={() => shareContent('reddit')}>Reddit</MenuItem>
+              <MenuItem onClick={() => shareContent('pinterest')}>Pinterest</MenuItem>
+              <MenuItem onClick={() => shareContent('linkedin')}>LinkedIn</MenuItem>                        
+            </Menu>  
           </Box>
           <Typography variant="body1" paragraph>
             Data scientists analyze complex datasets to uncover insights and trends that help organizations make data-driven decisions. They use tools like Python, R, and machine learning algorithms to extract valuable information from data.
