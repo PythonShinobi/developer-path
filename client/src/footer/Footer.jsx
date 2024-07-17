@@ -1,7 +1,7 @@
 // client/src/footer/Footer.jsx
 import React from 'react';
 import { Container, Typography, Box, Grid, IconButton } from '@mui/material';
-import { LinkedIn, GitHub } from '@mui/icons-material';
+import { GitHub, X } from '@mui/icons-material';
 
 const Footer = () => {
   return (
@@ -14,9 +14,9 @@ const Footer = () => {
               <IconButton href="https://github.com/PythonShinobi" target="_blank" rel="noopener noreferrer">
                 <GitHub fontSize="large" style={{ color: '#FFFFFF' }} />
               </IconButton>
-              <IconButton href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={{ marginRight: 10 }}>
-                <LinkedIn fontSize="large" style={{ color: '#0A66C2' }} />
-              </IconButton>
+              <IconButton href="https://twitter.com/PythonShinobi" target="_blank" rel="noopener noreferrer">
+                <X fontSize="large" style={{ color: '#FFFFFF' }} />
+              </IconButton>              
             </Box>
           </Grid>          
         </Grid>
