@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Typography, Box, Button, Menu, MenuItem, Fab } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
+import FileCopyIcon from '@mui/icons-material/FileCopy';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 import Navbar from '../../navbar/Navbar';
@@ -75,6 +76,16 @@ const CyberSecuritySpecialistPage = () => {
     handleMenuClose(); // Close the menu after sharing
   };
 
+  const copyLink = () => {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => {
+        alert('Link copied to clipboard!');
+      })
+      .catch((err) => {
+        console.error('Failed to copy: ', err);
+      });
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
     window.addEventListener('scroll', handleScroll);
@@ -100,6 +111,15 @@ const CyberSecuritySpecialistPage = () => {
               onClick={handleMenuOpen} // Open the sharing menu
             >
               Share
+            </Button>
+            <Button
+              variant="contained"
+              startIcon={<FileCopyIcon />}
+              style={{ backgroundColor: '#007BFF', color: '#FFF', marginLeft: '2px' }}
+              size="medium"
+              onClick={copyLink} // Copy the link to clipboard
+            >
+              Copy Link
             </Button>
             <Menu
               anchorEl={anchorEl}
