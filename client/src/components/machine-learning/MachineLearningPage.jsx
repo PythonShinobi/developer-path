@@ -54,10 +54,10 @@ const MachineLearningPage = () => {
         shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`;
         break;
       case 'reddit':
-        shareUrl = `https://www.reddit.com/submit?url=${encodeURIComponent(window.location.href)}&title=Check%20out%20this%20Fullstack%20Developer%20page!`;
+        shareUrl = `https://www.reddit.com/submit?url=${encodeURIComponent(window.location.href)}`;
         break;
       case 'pinterest':
-        shareUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(window.location.href)}&description=Check%20out%20this%20Fullstack%20Developer%20page!`;
+        shareUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(window.location.href)}`;
         break;
       case 'linkedin':
         shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`;
