@@ -37,6 +37,9 @@ const corsOptions = {
   allowedHeaders: ['Content-Type', 'Authorization'], // Headers allowed in the request.
 };
 
+// Enable trust proxy
+app.set('trust proxy', 1);
+
 // Configure CORS middleware using the corsOptions object.
 app.use(cors(corsOptions));
 
