@@ -5,7 +5,7 @@ import { Container, Typography, Box, TextField, Button } from "@mui/material";
 
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-import config from "../config.js"
+import config from "../config.js";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
