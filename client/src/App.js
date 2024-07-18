@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './home/Home';
 import AboutPage from './about/About';
 import ContactPage from './contact/Contact';
+import PageNotFound from './404-page/PageNotFound';
 import FrontendDeveloperPage from './components/frontend-developer/Frontend';
 import BackendDeveloperPage from './components/backend-developer/Backend';
 import APIDeveloperPage from './components/api-developer/Api';
@@ -41,6 +42,7 @@ const App = () => {
         <Route path='/python-developer' element={<PythonDeveloperPage />}/>        
         <Route path='/java-developer' element={<JavaDeveloperPage />}/>        
         <Route path='/cpp-developer' element={<CppDeveloperPage />}/>        
+        <Route path='*' element={<PageNotFound />}/>        
       </Routes>
     </BrowserRouter>
   );
