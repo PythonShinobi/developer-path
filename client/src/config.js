@@ -1,6 +1,6 @@
 // client/src/config.js
 const config = {
-  serverEndpoint: "http://localhost:5000",
+  apiUrl: process.env.REACT_APP_API_URL,
 };
 
 export default config;
