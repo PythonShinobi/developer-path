@@ -9,6 +9,11 @@ import emailLimiter from "./rateLimiter.js";
 */
 const router = Router();
 
+// Message to check if the server is working as expected.
+router.get("/", (req, res) => {
+  res.send("Backend server is running✅");
+});
+
 // POST endpoint to send emails.
 router.post("/send-email", emailLimiter, sendEmail);
 
