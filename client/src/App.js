@@ -20,6 +20,11 @@ import MachineLearningPage from './components/machine-learning/MachineLearningPa
 import PythonDeveloperPage from './components/python-developer/PythonDeveloper';
 import JavaDeveloperPage from './components/java-developer/JavaDeveloper';
 import CppDeveloperPage from './components/cpp-developer/Cpp-Developer';
+import DevOpsEngineerPage from './components/devops-engineer/DevOpsEngineer';
+import IOSDeveloperPage from './components/ios-developer/IOSDeveloper';
+import AndroidDeveloperPage from './components/android-developer/AndroidDeveloperPage';
+import GameDeveloperPage from './components/game-developer/GameDeveloperPage';
+import IoTDeveloperPage from './components/iot-developer/IoTDeveloperPage';
 
 const App = () => {
   return (
@@ -41,7 +46,12 @@ const App = () => {
         <Route path='/machine-learning' element={<MachineLearningPage />}/>        
         <Route path='/python-developer' element={<PythonDeveloperPage />}/>        
         <Route path='/java-developer' element={<JavaDeveloperPage />}/>        
-        <Route path='/cpp-developer' element={<CppDeveloperPage />}/>        
+        <Route path='/cpp-developer' element={<CppDeveloperPage />}/>                     
+        <Route path='/devops-engineer' element={<DevOpsEngineerPage />}/>        
+        <Route path='/ios-developer' element={<IOSDeveloperPage />}/>        
+        <Route path='/android-developer' element={<AndroidDeveloperPage />}/>        
+        <Route path='/game-developer' element={<GameDeveloperPage />}/>        
+        <Route path='/iot-developer' element={<IoTDeveloperPage />}/>                    
         <Route path='*' element={<PageNotFound />}/>        
       </Routes>
     </BrowserRouter>

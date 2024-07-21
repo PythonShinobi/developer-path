@@ -13,5 +13,9 @@
   { "title": "Python Developer", "path": "/python-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721113401/python-developer-card_t2zjxp.jpg" },
   { "title": "Java Developer", "path": "/java-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721115582/How_To_Install_Java_on_Linux_xqig2m.jpg" },
   { "title": "C/C++ Developer", "path": "/cpp-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721118604/15_Best_Embedded_Systems_Programming_Languages_udu3rf.jpg" },
-  { "title": "iOS Developer", "path": "/ios-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721372701/swift-developer-card_mm7036.jpg" }
+  { "title": "iOS Developer", "path": "/ios-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721372701/swift-developer-card_mm7036.jpg" },
+  { "title": "Android Developer", "path": "/android-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721377852/Google_Declared_Kotlin_As_The_First_Language_For_Android_App_Development_o0kxvd.jpg" },
+  { "title": "DevOps Engineer", "path": "/devops-engineer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721377993/devops-card_wmyuta.jpg" },
+  { "title": "Game Developer", "path": "/game-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721375755/unity-developer-card_xatxzw.jpg" },
+  { "title": "IoT Developer", "path": "/iot-developer", "img": "https://res.cloudinary.com/ddtded6wc/image/upload/v1721377039/iot-developer-card_jvlvvt.jpg" }
 ]
