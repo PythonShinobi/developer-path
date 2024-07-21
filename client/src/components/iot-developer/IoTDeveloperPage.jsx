@@ -138,7 +138,7 @@ const IoTDeveloperPage = () => {
           </Box>
           <img 
             src="https://res.cloudinary.com/ddtded6wc/image/upload/v1721543356/4278198_17454_p4zk6e.svg" 
-            alt="Android Development" 
+            alt="IoT Development" 
             style={{ width: '100%', height: 'auto', maxWidth: '800px', marginBottom: '20px' }}
           />
           <Box display="flex" justifyContent="center" id="introduction">
@@ -611,23 +611,19 @@ const IoTDeveloperPage = () => {
             <li><strong>"Practical Internet of Things Security" by Brian Russell and Drew Van Duren:</strong> Provides essential knowledge on securing IoT devices and networks against threats.</li>
           </ul>
         </Box>
+
+        {showBackToTop && (
+          <Box position="fixed" bottom={16} right={16}>
+            <Fab
+              color="primary"
+              aria-label="Back to Top"
+              onClick={handleScrollToTop}
+            >
+              <KeyboardArrowUpIcon />
+            </Fab>
+          </Box>
+        )}
       </Container>
-
-      {showBackToTop && (
-        <Fab
-          color="primary"
-          aria-label="back to top"
-          onClick={handleScrollToTop}
-          style={{
-            position: 'fixed',
-            bottom: 16,
-            right: 16,
-          }}
-        >
-          <KeyboardArrowUpIcon />
-        </Fab>
-      )}
-
       <Footer />
     </div>
   );
