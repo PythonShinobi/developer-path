@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import HomePage from './home/Home';
+import CareerPage from './careers/career-page';
 import AboutPage from './about/About';
 import ContactPage from './contact/Contact';
 import PageNotFound from './404-page/PageNotFound';
@@ -31,6 +32,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />}/>
+        <Route path='/developer-paths' element={<CareerPage />}/>
         <Route path='/about' element={<AboutPage />}/>
         <Route path='/contact' element={<ContactPage />}/>
         <Route path='/frontend-developer' element={<FrontendDeveloperPage />}/>
