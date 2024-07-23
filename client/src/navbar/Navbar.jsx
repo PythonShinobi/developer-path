@@ -51,6 +51,7 @@ const Navbar = () => {
           {!isMobile && (
             <div sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Button color="inherit" component={Link} to="/" sx={isLinkActive('/') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#FFF' }}>Home</Button>
+              <Button color="inherit" component={Link} to="/developer-paths" sx={isLinkActive('/developer-paths') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#FFF' }}>Careers</Button>
               <Button color="inherit" component={Link} to="/about" sx={isLinkActive('/about') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#FFF' }}>About</Button>
               <Button color="inherit" component={Link} to="/contact" sx={isLinkActive('/contact') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#FFF' }}>Contact</Button>
             </div>
@@ -70,6 +71,7 @@ const Navbar = () => {
             }}
           >
             <MenuItem component={Link} to="/" sx={isLinkActive('/') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#263238' }} onClick={handleMenuClose}>Home</MenuItem>
+            <MenuItem component={Link} to="/developer-paths" sx={isLinkActive('/developer-paths') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#263238' }} onClick={handleMenuClose}>Careers</MenuItem>
             <MenuItem component={Link} to="/about" sx={isLinkActive('/about') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#263238' }} onClick={handleMenuClose}>About</MenuItem>
             <MenuItem component={Link} to="/contact" sx={isLinkActive('/contact') ? { fontWeight: 'bold', color: '#FFC107' } : { color: '#263238' }} onClick={handleMenuClose}>Contact</MenuItem>
           </Menu>
