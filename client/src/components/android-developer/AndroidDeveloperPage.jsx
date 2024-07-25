@@ -524,7 +524,11 @@ const AndroidDeveloperPage = () => {
           <Typography 
             variant="body1" 
             paragraph 
-            style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}
+            style={{ 
+              textAlign: 'justify',               
+              wordSpacing: isSmallScreen ? 0 : 0, // Adjust word spacing for smaller screens
+              marginBottom: '20px' 
+            }}
           >
             Android development is highly sought-after due to the vast number of Android devices in use globally. The demand for Android developers continues to rise as businesses and individuals seek to create innovative, user-friendly applications for the Android platform.
           </Typography>
@@ -545,7 +549,11 @@ const AndroidDeveloperPage = () => {
           <Typography 
             variant="body1" 
             paragraph 
-            style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}
+            style={{ 
+              textAlign: 'justify',               
+              wordSpacing: isSmallScreen ? 0 : 0, // Adjust word spacing for smaller screens
+              marginBottom: '20px' 
+            }}
           >
             Becoming an Android developer involves several key steps that will equip you with the skills and knowledge needed to create mobile applications for the Android platform. Here’s a comprehensive guide to help you on your path:
             <br /><br />
@@ -578,7 +586,11 @@ const AndroidDeveloperPage = () => {
           <Typography 
             variant="body1" 
             paragraph 
-            style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}
+            style={{ 
+              textAlign: 'justify',               
+              wordSpacing: isSmallScreen ? 0 : 0, // Adjust word spacing for smaller screens
+              marginBottom: '20px' 
+            }}
           >
             Becoming an effective Android developer requires a combination of hands-on practice, interactive learning, and continuous improvement. Here’s a detailed guide on study methods and strategies to help you on your journey:
             <br /><br />
@@ -615,7 +627,7 @@ const AndroidDeveloperPage = () => {
           <Typography 
             variant="body1" 
             paragraph 
-            style={{ textAlign: 'justify', lineHeight: '1.6', marginBottom: '20px' }}
+            style={{ textAlign: 'justify', lineHeight: '1.6', wordSpacing: isSmallScreen ? 0 : 0, marginBottom: '20px' }}
           >
             Explore these resources to accelerate your journey to becoming an Android developer:
           </Typography>
