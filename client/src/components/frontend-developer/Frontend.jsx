@@ -139,6 +139,8 @@ const FrontendDeveloperPage = () => {
           <img 
             src="https://res.cloudinary.com/ddtded6wc/image/upload/v1721631576/61842_hlstzu.jpg" 
             alt="Frontend Development" 
+            width="800" 
+            height="auto"
             style={{ width: '100%', height: 'auto', maxWidth: '800px', marginBottom: '20px' }}
           />
           <Box display="flex" justifyContent="center" id="introduction">
