@@ -1,5 +1,8 @@
+// client/src/App.js
 import React, { lazy, Suspense, memo } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Loading from './loading/loading';
 
 const HomePage = lazy(() => import('./home/Home'));
 const CareerPage = lazy(() => import('./careers/career-page'));
@@ -54,7 +57,7 @@ const MemoizedIoTDeveloperPage = memo(IoTDeveloperPage);
 const App = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loading />}>
         <Routes>
           <Route path='/' element={<MemoizedHomePage />} />
           <Route path='/developer-paths' element={<MemoizedCareerPage />} />

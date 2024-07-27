@@ -1,0 +1,28 @@
+/* src/components/loading.css */
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  position: relative; /* Ensure proper positioning for centering */
+  
+}
+
+.loading-image {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 10px; /* Space between the image and text */
+}
+
+.loading-text {
+  font-size: 1.2rem; /* Font size for the text */
+  font-family: 'Roboto', sans-serif; /* Font style */
+  color: #333; /* Text color */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  overflow: hidden; /* Hide overflow text if it's too long */
+  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+  margin: 0; /* Remove default margin */
+}
